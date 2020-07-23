@@ -52,7 +52,7 @@ print('MENU')
 print('1. rotate an image')
 print('2. transpose an image')
 print('3. resize an image')
-print('4. cropping an image')
+#print('4. cropping an image')
 print('Enter your option = ');
 option=int(input())
 if option==1 :
@@ -61,7 +61,7 @@ if option==2 :
 	transpose_an_image()
 if option==3 :
 	resize_an_image()
-if option==4 :
+'''if option==4 :
 	cropping_an_image()
-
+'''
 	
